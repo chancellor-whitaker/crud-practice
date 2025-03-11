@@ -9,4 +9,4 @@ export const generateColumnDefs = (rowData, key = primaryKey) =>
         .map((row) => Object.keys(row))
         .flat()
     ),
-  ].map((field) => ({ editable: field !== key, field }));
+  ].map((field) => ({ /*editable: field !== key,*/ field }));
